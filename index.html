@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>My Static Website on AWS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="360_F_250656107_l5G1o7f1xhoqB68QcVt6Zrz3jRtapvSQ.jpg" alt="Site Logo" class="logo">
+    <h1>Welcome to My Static AWS Website!</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>About This Site</h2>
+      <p>This website is deployed using <strong>AWS S3</strong> and <strong>CloudFront CDN</strong> with a fully automated <strong>CI/CD pipeline</strong> powered by GitHub Actions.</p>
+      <img src="featured_image.jpg" alt="Cloud and static site illustration" class="hero-image">
+    </section>
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Fast & secure static hosting</li>
+        <li>Global CDN for low latency</li>
+        <li>Automated deployments from GitHub</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <button type="submit">Send</button>
+      </form>
+      <p id="form-msg"></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Static AWS Website</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
